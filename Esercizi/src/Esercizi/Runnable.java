@@ -77,7 +77,7 @@ public class Runnable {
 		} else if(i == p - 1) {
 			arr[i] = n;
 		} else {
-			arr[1] = arr[i -1];
+			arr[1] = arr[i - 1];
 		}
 	}
 	System.out.println(Arrays.toString(arr));
